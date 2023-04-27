@@ -1,0 +1,109 @@
+body {
+  background-color: #000000;
+  background-image: url("Ringsite/Other/coolHD-TP-balck-smlr.jpg");
+  font-family: serif;
+  text-align: center;
+  image-rendering: crisp-edges;
+  }  
+  div.container {
+    width: 900px;
+    max-width: 98%;
+    height: 98%;
+    max-height: 800px;
+    padding: 5px 10px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin: auto;
+    border: 2px solid white;
+    position: relative;
+    box-sizing: border-box;
+    background-attachment: local;
+    background-color: #412001;
+    background-image: url("Ringsite/Other/coolHD-TP-balck-smlr.jpg");
+  }
+  div.padding {
+    color: white;
+  }
+  /* Disable parallax scrolling on screen widths of less than 650px*/
+  @media only screen and (max-device-width: 650px) {
+    body {
+      background-attachment: scroll;
+    }
+  }
+  
+  /*Restrict width of all content to less than 1100px*/
+  /*Orig div :not(hr) :not(img)*/
+  /*p {
+    width: 1000px;
+    max-width: 95%;
+    margin: auto;
+  }*/
+  
+  /*Custom cursors*/
+    body {cursor: url('https://media.tenor.com/qJRMLPlR3_8AAAAi/maxwell-cat.gif'), default;}
+    a {cursor: url('https://media.tenor.com/qJRMLPlR3_8AAAAi/maxwell-cat.gif'), pointer;}
+    p, h1, h2, h3, small {cursor: url('https://media.tenor.com/qJRMLPlR3_8AAAAi/maxwell-cat.gif'), text;}
+  
+  /*Force images to fit in browser window*/
+  img {
+    max-width:100%;
+    height: auto;
+   }
+   
+  /*Disable border around linked images*/
+  /*Intended for browsers such as IE8*/
+  a img, :link img, :visited img {
+    border: 0px;
+  }
+   
+  /*An alert box for things that need alerts*/
+  .alertbox {
+   border-radius: 10px 10px 10px 10px;
+   margin: 3px auto 3px auto;
+   background: rgb(176, 0, 0);
+   min-width: 60%;
+   max-width: 95%;
+   color: white;
+   font-family: sans-serif;
+   padding: 0px 10px 0px 10px;
+   line-height: 0px;
+   border: 0px solid red;
+   text-align: center;
+   overflow: auto;
+   font-size: 13px;
+  }
+  .alertbox a {
+    color: white;
+  }
+  .alertline {
+    line-height: 18px;
+  }
+  
+  
+  /*Text sizing*/
+  h2 {
+    font-size: 32px;
+    margin: 3px auto;
+  }
+  h3 {
+    font-size: 26px;
+    margin: 8px auto 3px auto;
+  }
+  p {
+    font-size: 110%;
+    margin: 8px auto 10px auto;
+  }
+  
+  /*The current theme*/
+  a {
+    color: #ffcc00;
+    text-decoration: none;
+  }
+  a:visited {
+    color: #ffa600;
+    /*Original:: #ED9C02*/
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  
