@@ -1,10 +1,20 @@
 body {
-  background-color: #000000;
-  background-image: url("Ringsite/Other/coolHD-TP-balck-smlr.jpg");
+  background-color: #ff94c1;
+  background-image: url("https://transrats.neocities.org/bg.gif");
   font-family: serif;
   text-align: center;
   image-rendering: crisp-edges;
+  background-attachment: fixed;
   }  
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(119, 17, 128, 0);
+    color: rgb(223, 223, 223);
+    text-align: center;
+  }
   div.container {
     width: 900px;
     max-width: 98%;
@@ -14,35 +24,21 @@ body {
     overflow-x: hidden;
     overflow-y: auto;
     margin: auto;
-    border: 2px solid white;
+    border: 100px solid rgb(92, 75, 190);
     position: relative;
     box-sizing: border-box;
     background-attachment: local;
-    background-color: #412001;
-    background-image: url("Ringsite/Other/coolHD-TP-balck-smlr.jpg");
+    background-color: #8b8b8b;
+    background-image: url("https://transrats.neocities.org/bg.gif");
   }
   div.padding {
     color: white;
   }
-  /* Disable parallax scrolling on screen widths of less than 650px*/
-  @media only screen and (max-device-width: 650px) {
-    body {
-      background-attachment: scroll;
-    }
-  }
-  
-  /*Restrict width of all content to less than 1100px*/
-  /*Orig div :not(hr) :not(img)*/
-  /*p {
-    width: 1000px;
-    max-width: 95%;
-    margin: auto;
-  }*/
-  
+ 
   /*Custom cursors*/
-    body {cursor: url('https://media.tenor.com/qJRMLPlR3_8AAAAi/maxwell-cat.gif'), default;}
-    a {cursor: url('https://media.tenor.com/qJRMLPlR3_8AAAAi/maxwell-cat.gif'), pointer;}
-    p, h1, h2, h3, small {cursor: url('https://media.tenor.com/qJRMLPlR3_8AAAAi/maxwell-cat.gif'), text;}
+    body {cursor: url('https://preview.redd.it/le-whole-rgb-haj-crew-from-my-earlier-blahaj-post-as-v0-5vtjtwhq1s591.png?width=640&crop=smart&auto=webp&s=12a6a2edcdff9a9aaff19ec1107cdb2ccf00ff7d'), default;}
+    a {cursor: url('https://preview.redd.it/le-whole-rgb-haj-crew-from-my-earlier-blahaj-post-as-v0-5vtjtwhq1s591.png?width=640&crop=smart&auto=webp&s=12a6a2edcdff9a9aaff19ec1107cdb2ccf00ff7d'), pointer;}
+    p, h1, h2, h3, small {cursor: url('https://preview.redd.it/le-whole-rgb-haj-crew-from-my-earlier-blahaj-post-as-v0-5vtjtwhq1s591.png?width=640&crop=smart&auto=webp&s=12a6a2edcdff9a9aaff19ec1107cdb2ccf00ff7d'), text;}
   
   /*Force images to fit in browser window*/
   img {
@@ -55,31 +51,10 @@ body {
   a img, :link img, :visited img {
     border: 0px;
   }
-   
-  /*An alert box for things that need alerts*/
-  .alertbox {
-   border-radius: 10px 10px 10px 10px;
-   margin: 3px auto 3px auto;
-   background: rgb(176, 0, 0);
-   min-width: 60%;
-   max-width: 95%;
-   color: white;
-   font-family: sans-serif;
-   padding: 0px 10px 0px 10px;
-   line-height: 0px;
-   border: 0px solid red;
-   text-align: center;
-   overflow: auto;
-   font-size: 13px;
-  }
-  .alertbox a {
-    color: white;
-  }
-  .alertline {
-    line-height: 18px;
-  }
+
+
   
-  
+
   /*Text sizing*/
   h2 {
     font-size: 32px;
@@ -94,16 +69,23 @@ body {
     margin: 8px auto 10px auto;
   }
   
-  /*The current theme*/
-  a {
-    color: #ffcc00;
-    text-decoration: none;
-  }
-  a:visited {
-    color: #ffa600;
-    /*Original:: #ED9C02*/
-  }
-  a:hover {
-    text-decoration: underline;
-  }
-  
+  .sidebar {
+    height: 100%;
+    width: 150px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding-top: 40px;
+    background-color: rgba(218, 121, 205, 0.5);
+    }
+    
+    .sidebar div {
+    padding: 8px;
+    font-size: 24px;
+    display: block;
+    }
+    
+    .body-text {
+    margin-left: 150px;
+    font-size: 18px;
+    }
