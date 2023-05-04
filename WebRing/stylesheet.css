@@ -15,22 +15,7 @@ body {
     color: rgb(223, 223, 223);
     text-align: center;
   }
-  div.container {
-    width: 900px;
-    max-width: 98%;
-    height: 98%;
-    max-height: 800px;
-    padding: 5px 10px;
-    overflow-x: hidden;
-    overflow-y: auto;
-    margin: auto;
-    border: 100px solid rgb(92, 75, 190);
-    position: relative;
-    box-sizing: border-box;
-    background-attachment: local;
-    background-color: #8b8b8b;
-    background-image: url("https://transrats.neocities.org/bg.gif");
-  }
+
   div.padding {
     color: white;
   }
